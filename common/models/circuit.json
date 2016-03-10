@@ -16,7 +16,7 @@
     "tracks": {
       "type": "hasMany",
       "model": "track",
-      "foreignKey": ""
+      "foreignKey": "trackId"
     }
   },
   "acls": [],

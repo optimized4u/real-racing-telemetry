@@ -16,7 +16,7 @@
     "circuits": {
       "type": "hasAndBelongsToMany",
       "model": "circuit",
-      "foreignKey": ""
+      "foreignKey": "circuitId"
     }
   },
   "acls": [],
