@@ -31,5 +31,33 @@
   "Role": {
     "dataSource": "mongoDs",
     "public": false
+  },
+  "level": {
+    "dataSource": "mongoDs",
+    "public": true
+  },
+  "manufacturer": {
+    "dataSource": "mongoDs",
+    "public": true
+  },
+  "car": {
+    "dataSource": "mongoDs",
+    "public": true
+  },
+  "circuit": {
+    "dataSource": "mongoDs",
+    "public": true
+  },
+  "series": {
+    "dataSource": "mongoDs",
+    "public": true
+  },
+  "track": {
+    "dataSource": "mongoDs",
+    "public": true
+  },
+  "distance": {
+    "dataSource": "mongoDs",
+    "public": true
   }
 }

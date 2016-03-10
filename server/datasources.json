@@ -4,12 +4,12 @@
     "connector": "memory"
   },
   "mongoDs": {
-    "name": "mongoDs",
-    "connector": "mongodb",
     "host": "localhost",
+    "port": 27017,
     "database": "real-racing",
     "username": "",
     "password": "",
-    "port": 27017
+    "name": "mongoDs",
+    "connector": "mongodb"
   }
 }

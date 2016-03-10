@@ -1,0 +1,21 @@
+{
+  "name": "distance",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "miles": {
+      "type": "number",
+      "required": true
+    },
+    "kilometers": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
