@@ -16,7 +16,7 @@
     "manufacturer": {
       "type": "hasOne",
       "model": "manufacturer",
-      "foreignKey": ""
+      "foreignKey": "manufacturerId"
     }
   },
   "acls": [],
