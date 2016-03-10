@@ -59,5 +59,9 @@
   "distance": {
     "dataSource": "mongoDs",
     "public": true
+  },
+  "racer": {
+    "dataSource": "mongoDs",
+    "public": true
   }
 }
