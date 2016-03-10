@@ -12,7 +12,13 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "manufacturer": {
+      "type": "hasOne",
+      "model": "manufacturer",
+      "foreignKey": ""
+    }
+  },
   "acls": [],
   "methods": {}
 }

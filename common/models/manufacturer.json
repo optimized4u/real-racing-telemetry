@@ -12,7 +12,13 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "cars": {
+      "type": "hasMany",
+      "model": "car",
+      "foreignKey": ""
+    }
+  },
   "acls": [],
   "methods": {}
 }
