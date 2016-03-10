@@ -12,7 +12,13 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "circuits": {
+      "type": "hasAndBelongsToMany",
+      "model": "circuit",
+      "foreignKey": ""
+    }
+  },
   "acls": [],
   "methods": {}
 }

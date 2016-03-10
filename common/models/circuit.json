@@ -12,7 +12,13 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "tracks": {
+      "type": "hasMany",
+      "model": "track",
+      "foreignKey": ""
+    }
+  },
   "acls": [],
   "methods": {}
 }
