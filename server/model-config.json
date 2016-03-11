@@ -63,5 +63,9 @@
   "racer": {
     "dataSource": "mongoDs",
     "public": true
+  },
+  "time_of_day": {
+    "dataSource": "mongoDs",
+    "public": true
   }
 }
