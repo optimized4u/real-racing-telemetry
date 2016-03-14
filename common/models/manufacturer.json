@@ -16,7 +16,7 @@
     "cars": {
       "type": "hasMany",
       "model": "car",
-      "foreignKey": "carId"
+      "foreignKey": ""
     }
   },
   "acls": [],
