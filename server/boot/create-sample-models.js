@@ -17,9 +17,9 @@ module.exports = function(app) {
   });
   //create racers
   function createRacers(cb) {
-    mongoDs.automigrate('Racer', function(err) {
+    mongoDs.automigrate('racer', function(err) {
       if (err) return cb(err);
-      var Racer = app.models.Racer;
+      var Racer = app.models.racer;
       Racer.create([
         {email: 'nickykeyse@gmail.com', password: 'nickykeyse'},
         {email: 'adambrowne52@gmail.com', password: 'adambrowne'},
@@ -29,9 +29,9 @@ module.exports = function(app) {
   }
   //create coffee shops
   function createManufacturers(cb) {
-    mongoDs.automigrate('Manufacturer', function(err) {
+    mongoDs.automigrate('manufacturer', function(err) {
       if (err) return cb(err);
-      var Manufacturer = app.models.Manufacturer;
+      var Manufacturer = app.models.manufacturer;
       Manufacturer.create([
         {name: 'Ariel'},
         {name: 'Aston Martin'},
@@ -41,9 +41,9 @@ module.exports = function(app) {
   }
   //create Cars
   function createCars(manufacturers, cb) {
-    mongoDs.automigrate('Car', function(err) {
+    mongoDs.automigrate('car', function(err) {
       if (err) return cb(err);
-      var Car = app.models.Car;
+      var Car = app.models.car;
 
       Car.create([
         {
