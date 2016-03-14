@@ -14,7 +14,7 @@
   "validations": [],
   "relations": {
     "manufacturer": {
-      "type": "hasOne",
+      "type": "belongsTo",
       "model": "manufacturer",
       "foreignKey": "manufacturerId"
     }
