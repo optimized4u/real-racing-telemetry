@@ -6,7 +6,7 @@
   "mongoDs": {
     "host": "localhost",
     "port": 27017,
-    "database": "real-racing",
+    "database": "real-racing-v1",
     "username": "",
     "password": "",
     "name": "mongoDs",
