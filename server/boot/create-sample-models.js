@@ -48,39 +48,39 @@ module.exports = function(app) {
       Car.create([
         {
           model: 'Atom 3.5',
-          ManufacturerId: manufacturers[0].id,
+          manufacturerId: manufacturers[0].id,
         },
         {
           model: 'Atom V8',
-          ManufacturerId: manufacturers[0].id,
+          manufacturerId: manufacturers[0].id,
         },
         {
           model: 'DB9',
-          ManufacturerId: manufacturers[1].id,
+          manufacturerId: manufacturers[1].id,
         },
         {
           model: 'V12 Vantage S',
-          ManufacturerId: manufacturers[1].id,
+          manufacturerId: manufacturers[1].id,
         },
         {
           model: 'Vanquish',
-          ManufacturerId: manufacturers[1].id,
+          manufacturerId: manufacturers[1].id,
         },
         {
           model: 'Vantage GT3',
-          ManufacturerId: manufacturers[1].id,
+          manufacturerId: manufacturers[1].id,
         },
         {
           model: 'Vantage N430',
-          ManufacturerId: manufacturers[1].id,
+          manufacturerId: manufacturers[1].id,
         },
         {
           model: 'Vulcan',
-          ManufacturerId: manufacturers[1].id,
+          manufacturerId: manufacturers[1].id,
         },
         {
           model: 'R18 e-tron quattro (2014)',
-          ManufacturerId: manufacturers[2].id,
+          manufacturerId: manufacturers[2].id,
         },
       ], cb);
     });
