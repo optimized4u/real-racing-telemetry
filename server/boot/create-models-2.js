@@ -51,135 +51,135 @@ module.exports = function(app) {
       Track.create([
         {
           name: "Junior Course",
-          circuitId: circuit[0].id,
+          circuitId: circuits[0].id,
         },
         {
           name: "Road Course",
-          circuitId: circuit[0].id,
+          circuitId: circuits[0].id,
         },
         {
           name: "Indy Circuit",
-          circuitId: circuit[1].id,
+          circuitId: circuits[1].id,
         },
         {
           name: "Club Circuit",
-          circuitId: circuit[2].id,
+          circuitId: circuits[2].id,
         },
         {
           name: "GP Circuit",
-          circuitId: circuit[2].id,
+          circuitId: circuits[2].id,
         },
         {
           name: "National Circuit",
-          circuitId: circuit[2].id,
+          circuitId: circuits[2].id,
         },
         {
           name: "Motorcycle Course",
-          circuitId: circuit[5].id,
+          circuitId: circuits[5].id,
         },
         {
           name: "Road Course",
-          circuitId: circuit[5].id,
+          circuitId: circuits[5].id,
         },
         {
           name: "Speedway",
-          circuitId: circuit[5].id,
+          circuitId: circuits[5].id,
         },
         {
           name: "Club Circuit",
-          circuitId: circuit[6].id,
+          circuitId: circuits[6].id,
         },
         {
           name: "Grand Prix Circuit",
-          circuitId: circuit[6].id,
+          circuitId: circuits[6].id,
         },
         {
           name: "Hill Circuit",
-          circuitId: circuit[6].id,
+          circuitId: circuits[6].id,
         },
         {
           name: "International Circuit",
-          circuitId: circuit[6].id,
+          circuitId: circuits[6].id,
         },
         {
           name: "National Circuit",
-          circuitId: circuit[6].id,
+          circuitId: circuits[6].id,
         },
         {
           name: "Oval Circuit",
-          circuitId: circuit[6].id,
+          circuitId: circuits[6].id,
         },
         {
           name: "Grand Prix Circuit",
-          circuitId: circuit[7].id,
+          circuitId: circuits[7].id,
         },
         {
           name: "National Circuit",
-          circuitId: circuit[7].id,
+          circuitId: circuits[7].id,
         },
         {
           name: "Short",
-          circuitId: circuit[7].id,
+          circuitId: circuits[7].id,
         },
         {
           name: "Road Course",
-          circuitId: circuit[8].id,
+          circuitId: circuits[8].id,
         },
         {
           name: "Speedway",
-          circuitId: circuit[8].id,
+          circuitId: circuits[8].id,
         },
         {
           name: "Grand Prix Circuit",
-          circuitId: circuit[12].id,
+          circuitId: circuits[12].id,
         },
         {
           name: "Müllenbachschleife",
-          circuitId: circuit[12].id,
+          circuitId: circuits[12].id,
         },
         {
           name: "Sprint Circuit",
-          circuitId: circuit[12].id,
+          circuitId: circuits[12].id,
         },
         {
           name: "Dynamic Circuit",
-          circuitId: circuit[13].id,
+          circuitId: circuits[13].id,
         },
         {
           name: "On-road Circuit (Long)",
-          circuitId: circuit[13].id,
+          circuitId: circuits[13].id,
         },
         {
           name: "On-road Circuit (Short)",
-          circuitId: circuit[13].id,
+          circuitId: circuits[13].id,
         },
         {
           name: "The Bridge Grand Prix Circuit 2009",
-          circuitId: circuit[15].id,
+          circuitId: circuits[15].id,
         },
         {
           name: "The Grand Prix Circuit",
-          circuitId: circuit[15].id,
+          circuitId: circuits[15].id,
         },
         {
           name: "The International Circuit",
-          circuitId: circuit[15].id,
+          circuitId: circuits[15].id,
         },
         {
           name: "The National Circuit",
-          circuitId: circuit[15].id,
+          circuitId: circuits[15].id,
         },
         {
           name: "East Circuit",
-          circuitId: circuit[16].id,
+          circuitId: circuits[16].id,
         },
         {
           name: "Grand Prix Circuit",
-          circuitId: circuit[16].id,
+          circuitId: circuits[16].id,
         },
         {
           name: "West Circuit",
-          circuitId: circuit[16].id,
+          circuitId: circuits[16].id,
         }
       ], cb);
     });
