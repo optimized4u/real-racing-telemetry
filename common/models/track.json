@@ -14,9 +14,9 @@
   "validations": [],
   "relations": {
     "circuits": {
-      "type": "hasAndBelongsToMany",
+      "type": "belongsTo",
       "model": "circuit",
-      "foreignKey": "circuitId"
+      "foreignKey": ""
     }
   },
   "acls": [],
