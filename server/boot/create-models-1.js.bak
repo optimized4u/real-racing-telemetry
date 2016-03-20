@@ -5,8 +5,8 @@ module.exports = function(app) {
   //data sources
   var mongoDs = app.dataSources.mongoDs;
   // var mysqlDs = app.dataSources.mysqlDs;
-  //create all models
-  console.log('> Starting database migrations...');
+  // Create racer, manufacturer and car models.
+  console.log('> Starting database part 1 migrations...');
   async.parallel({
     racers: async.apply(createRacers),
     manufacturers: async.apply(createManufacturers),
